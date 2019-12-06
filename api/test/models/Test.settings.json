@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "tests",
+  "info": {
+    "name": "test",
+    "description": "this is test"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "required": true,
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "integer",
+      "max": 10,
+      "required": true,
+      "unique": true,
+      "min": 10
+    }
+  }
+}

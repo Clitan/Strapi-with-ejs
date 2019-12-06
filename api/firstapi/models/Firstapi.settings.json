@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "firstapis",
+  "info": {
+    "name": "firstapi",
+    "description": "this is the first api"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Tittle": {
+      "required": true,
+      "type": "string"
+    }
+  }
+}

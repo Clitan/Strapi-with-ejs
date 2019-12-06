@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/firstapis",
+      "handler": "Firstapi.index",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/firstapis/count",
+      "handler": "Firstapi.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/firstapis/:id",
+      "handler": "Firstapi.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/firstapis",
+      "handler": "Firstapi.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/firstapis/:id",
+      "handler": "Firstapi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/firstapis/:id",
+      "handler": "Firstapi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

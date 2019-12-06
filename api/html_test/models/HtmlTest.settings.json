@@ -1,0 +1,14 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "html_test",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    
+  }
+}
